@@ -1,7 +1,11 @@
 # MEL
 MEL app for M.C.
 
-Be sure to edit database (.MDF) file path in web.config for your setup.
+Be sure to edit database (.MDF) file path in web.config for your setup:
+  <connectionStrings>
+    <add name="constr" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\colbu\Documents\AjaxSamples.mdf;Integrated Security=True;Connect Timeout=30" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+
 
 
 To create table:
