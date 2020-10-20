@@ -1,6 +1,9 @@
 # MEL
 MEL app for M.C.
+
 Be sure to edit database (.MDF) file path in web.config for your setup.
+
+
 To create table:
 CREATE TABLE [dbo].[MELPeople] (
     [MEL_Id]                 INT           IDENTITY (1, 1) NOT NULL,
