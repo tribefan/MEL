@@ -183,7 +183,5 @@ Partial Class VB
         'word_app.Quit(save_changes)
 
     End Sub
-    Protected Sub gvMELPeople_SelectedIndexChanged(sender As Object, e As EventArgs) Handles gvMELPeople.SelectedIndexChanged
 
-    End Sub
 End Class
